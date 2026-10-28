@@ -1,6 +1,6 @@
 window.PLTV_DATA = {
-  "version": 1,
-  "updatedAt": "2026-10-28T08:00:00Z",
+  "version": 2,
+  "updatedAt": "2026-10-28T08:30:00Z",
   "settings": {
     "liveUrl": "http://cdn.mediavisionuae.com:1935/live/putlandtv2.stream/playlist.m3u8",
     "liveBackupUrl": "",
@@ -131,20 +131,6 @@ window.PLTV_DATA = {
       "source": "Warbaahinta Dowladda Puntland",
       "breaking": false,
       "date": "2026-07-19"
-    },
-    {
-      "id": "sharmaarke-dal-daare",
-      "title": "Sharma'arke Dal-daare oo loo magacaabay Agaasimaha Warfaafinta Xafiiska Madaxweyne Ku-xigeenka Puntland",
-      "summary": "Magacaabis cusub oo ka dhacday Xafiiska Madaxweyne Ku-xigeenka Puntland.",
-      "body": [
-        "Xafiiska Madaxweyne Ku-xigeenka Puntland ayaa shaaciyay magacaabista Agaasimaha Warfaafinta ee xafiiska.",
-        "Warbaahinta Dowladda Puntland ayaa warkan soo tabisay."
-      ],
-      "category": "politics",
-      "region": "Garoowe",
-      "source": "Warbaahinta Dowladda Puntland",
-      "breaking": false,
-      "date": "2026-06-22"
     }
   ],
   "chat": []
