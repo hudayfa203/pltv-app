@@ -85,7 +85,7 @@ main{flex:1;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;o
 .ph::before{content:"";position:absolute;inset:0;background-image:radial-gradient(#ffffff26 1px,transparent 1.6px);background-size:9px 9px;
   -webkit-mask-image:linear-gradient(150deg,#000,transparent 72%)}
 .ph .wm{position:absolute;right:8%;bottom:9%;width:30%;max-width:74px;opacity:.42}
-.lead{margin:0 12px;border-radius:20px;overflow:hidden;background:var(--card);border:1px solid var(--line);
+.lead{position:relative;margin:0 12px;border-radius:20px;overflow:hidden;background:var(--card);border:1px solid var(--line);
   width:calc(100% - 24px);text-align:start;display:block;box-shadow:0 14px 28px -22px rgba(4,29,79,.5)}
 .lead .ph{aspect-ratio:16/10}
 .lead .shade{position:absolute;inset:0;background:linear-gradient(transparent 35%,rgba(2,11,34,.92))}
@@ -271,6 +271,7 @@ nav button[aria-current="page"] .mid{background:var(--red)}
 <main id="main"></main>
 <nav id="nav"></nav>
 
+<script src="data/content.js"></script>
 <script src="hls.min.js"></script>
 <script>
 (function(){
@@ -647,11 +648,12 @@ function boot(){
     if(rm) setTimeout(function(){ fetch(rm,{cache:"no-store"}).then(function(r){return r.json()})
       .then(function(j){ if(j&&j.news){ S.data=j; render(); } }).catch(function(){}) },1200);
   };
+  // The bundled content ships as a script, not as a fetched file: a page
+  // served from file:// cannot read a sibling file with fetch().
+  var bundled=window.PLTV_DATA||{settings:{},news:[],ads:[],chat:[]};
   var cached=null;
   try{ cached=JSON.parse(localStorage.getItem("pltv_data")||"null") }catch(e){}
-  fetch("data/content.json",{cache:"no-store"}).then(function(r){return r.json()})
-    .then(function(j){ done(cached&&cached.version>j.version?cached:j) })
-    .catch(function(){ done(cached||{settings:{},news:[],ads:[],chat:[]}) });
+  done(cached&&cached.version>(bundled.version||0)?cached:bundled);
 }
 boot();
 })();

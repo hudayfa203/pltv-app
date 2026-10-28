@@ -1,4 +1,4 @@
-{
+window.PLTV_DATA = {
   "version": 1,
   "updatedAt": "2026-10-28T08:00:00Z",
   "settings": {
@@ -11,21 +11,68 @@
     "chatOpen": false,
     "breaking": "Warbaahinta Dowladda Puntland — Wararkii ugu dambeeyay ee Puntland iyo Soomaaliya.",
     "schedule": [
-      { "t": "07:00", "n": "Wararka Puntland", "d": "Wararkii ugu dambeeyay" },
-      { "t": "08:00", "n": "Dunida & Caalamka", "d": "Wararka caalamka" },
-      { "t": "09:00", "n": "Arrimaha Bulshada", "d": "Barnaamij bulsho" },
-      { "t": "10:00", "n": "Doodda Puntland", "d": "Falanqayn iyo dood" },
-      { "t": "13:00", "n": "Wararka Duhurnimo", "d": "Soo koobid maalinta" },
-      { "t": "16:00", "n": "Dhaqan iyo Dhigaal", "d": "Hidaha iyo dhaqanka" },
-      { "t": "19:00", "n": "Wararka Fiidnimo", "d": "Warbixinta weyn" },
-      { "t": "21:00", "n": "Faaqidaada Ciyaaraha", "d": "Falanqaynta ciyaaraha" }
+      {
+        "t": "07:00",
+        "n": "Wararka Puntland",
+        "d": "Wararkii ugu dambeeyay"
+      },
+      {
+        "t": "08:00",
+        "n": "Dunida & Caalamka",
+        "d": "Wararka caalamka"
+      },
+      {
+        "t": "09:00",
+        "n": "Arrimaha Bulshada",
+        "d": "Barnaamij bulsho"
+      },
+      {
+        "t": "10:00",
+        "n": "Doodda Puntland",
+        "d": "Falanqayn iyo dood"
+      },
+      {
+        "t": "13:00",
+        "n": "Wararka Duhurnimo",
+        "d": "Soo koobid maalinta"
+      },
+      {
+        "t": "16:00",
+        "n": "Dhaqan iyo Dhigaal",
+        "d": "Hidaha iyo dhaqanka"
+      },
+      {
+        "t": "19:00",
+        "n": "Wararka Fiidnimo",
+        "d": "Warbixinta weyn"
+      },
+      {
+        "t": "21:00",
+        "n": "Faaqidaada Ciyaaraha",
+        "d": "Falanqaynta ciyaaraha"
+      }
     ],
     "programs": [
-      { "n": "Dhallinyaradda", "d": "Barnaamijka dhallinyarada" },
-      { "n": "Kulanka Haweenka", "d": "Bulsho iyo horumar" },
-      { "n": "Faaqidaada Ciyaaraha", "d": "Falanqaynta ciyaaraha" },
-      { "n": "Iftiinka Nolosha", "d": "Barnaamij bulsho" },
-      { "n": "Dhaqan iyo Dhigaal", "d": "Hidaha iyo dhaqanka" }
+      {
+        "n": "Dhallinyaradda",
+        "d": "Barnaamijka dhallinyarada"
+      },
+      {
+        "n": "Kulanka Haweenka",
+        "d": "Bulsho iyo horumar"
+      },
+      {
+        "n": "Faaqidaada Ciyaaraha",
+        "d": "Falanqaynta ciyaaraha"
+      },
+      {
+        "n": "Iftiinka Nolosha",
+        "d": "Barnaamij bulsho"
+      },
+      {
+        "n": "Dhaqan iyo Dhigaal",
+        "d": "Hidaha iyo dhaqanka"
+      }
     ]
   },
   "ads": [
@@ -101,4 +148,4 @@
     }
   ],
   "chat": []
-}
+};

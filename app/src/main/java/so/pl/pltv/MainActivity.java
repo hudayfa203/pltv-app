@@ -67,6 +67,11 @@ public class MainActivity extends Activity {
         s.setDomStorageEnabled(true);
         s.setDatabaseEnabled(true);
         s.setAllowFileAccess(true);
+        // The app is a page on file://, so without these it cannot read its
+        // own bundled files over the network layer or refresh content from
+        // the newsroom. Everything it loads ships inside the APK.
+        s.setAllowFileAccessFromFileURLs(true);
+        s.setAllowUniversalAccessFromFileURLs(true);
         s.setLoadWithOverviewMode(true);
         s.setUseWideViewPort(true);
         s.setSupportZoom(false);
