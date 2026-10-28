@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28T08:00:00Z",
+  "settings": {
+    "liveUrl": "http://cdn.mediavisionuae.com:1935/live/putlandtv2.stream/playlist.m3u8",
+    "liveBackupUrl": "",
+    "officialUrl": "https://statetvradio.pl.so/",
+    "youtubeUrl": "https://www.youtube.com/@PuntlandTV",
+    "radioUrl": "",
+    "remoteUrl": "",
+    "chatOpen": false,
+    "breaking": "Warbaahinta Dowladda Puntland — Wararkii ugu dambeeyay ee Puntland iyo Soomaaliya.",
+    "schedule": [
+      { "t": "07:00", "n": "Wararka Puntland", "d": "Wararkii ugu dambeeyay" },
+      { "t": "08:00", "n": "Dunida & Caalamka", "d": "Wararka caalamka" },
+      { "t": "09:00", "n": "Arrimaha Bulshada", "d": "Barnaamij bulsho" },
+      { "t": "10:00", "n": "Doodda Puntland", "d": "Falanqayn iyo dood" },
+      { "t": "13:00", "n": "Wararka Duhurnimo", "d": "Soo koobid maalinta" },
+      { "t": "16:00", "n": "Dhaqan iyo Dhigaal", "d": "Hidaha iyo dhaqanka" },
+      { "t": "19:00", "n": "Wararka Fiidnimo", "d": "Warbixinta weyn" },
+      { "t": "21:00", "n": "Faaqidaada Ciyaaraha", "d": "Falanqaynta ciyaaraha" }
+    ],
+    "programs": [
+      { "n": "Dhallinyaradda", "d": "Barnaamijka dhallinyarada" },
+      { "n": "Kulanka Haweenka", "d": "Bulsho iyo horumar" },
+      { "n": "Faaqidaada Ciyaaraha", "d": "Falanqaynta ciyaaraha" },
+      { "n": "Iftiinka Nolosha", "d": "Barnaamij bulsho" },
+      { "n": "Dhaqan iyo Dhigaal", "d": "Hidaha iyo dhaqanka" }
+    ]
+  },
+  "ads": [
+    {
+      "id": "house-1",
+      "title": "Halkan xayeysiiskaaga ku soo bandhig",
+      "text": "Gaar daawadayaasha app-ka Puntland State TV.",
+      "cta": "Nala soo xiriir",
+      "color": "#0B8A2A",
+      "url": ""
+    }
+  ],
+  "news": [
+    {
+      "id": "guddiga-shuruucda-qardho",
+      "title": "Guddiga Shuruucda Golaha Wakiillada DPL oo gaaray magaalada Qardho",
+      "summary": "Guddiga Shuruucda iyo Caddaaladda Golaha Wakiillada DPL ayaa kormeer shaqo ku tagay Xabsiga weyn ee Qardho, Maxkamadda Darajada 1-aad iyo xarunta gobolka Karkaar.",
+      "body": [
+        "Guddiga Shuruucda iyo Caddaaladda Golaha Wakiillada DPL ayaa gaaray magaalada Qardho, halkaas oo ay kormeer shaqo ku tageen xarumo muhiim ah. Guddiga ayaa booqday Xabsiga weyn ee Qardho, halkaas oo ay kula kulmeen Taliyaha iyo saraakiisha kale ee xabsiga.",
+        "Guddiga ayaa dhagaystay warbixin ku saabsan baahiyaha iyo caqabadaha ka jira xabsiga, waxayna sidoo kale la kulmeen maxaabiista ku xiran.",
+        "Intaas kadib waxay booqdeen Maxkamadda Darajada 1-aad ee Gobolka Karkaar, halkaas oo ay warbixin kaga dhagaysteen masuuliyiinta maxkamadda.",
+        "Ugu dambayn, guddigu wuxuu kulan la yeeshay Guddoomiyaha Gobolka Karkaar iyo ku-xigeenkiisa si ay uga xog-wareystaan xaaladda guud ee gobolka."
+      ],
+      "category": "puntland",
+      "region": "Qardho, Karkaar",
+      "source": "Warbaahinta Dowladda Puntland",
+      "breaking": true,
+      "date": "2026-08-12"
+    },
+    {
+      "id": "tpec-yaka-qardho",
+      "title": "Duqa Degmada Qardho iyo xubnaha TPEC oo xarun is-diiwaangelinta ka daah-furay Yaka",
+      "summary": "Duqa Degmada Qardho iyo xubnaha Guddiga KMG Doorashooyinka Puntland ayaa xarun is-diiwaangelinta cod-bixiyayaasha ka daah-furay deegaanka Yaka.",
+      "body": [
+        "Shacabka deegaanka Yaka ayaa u dareeray xarumaha is-diiwaangelinta si ay u helaan kaararka cod-bixinta ee doorashada golayaasha deegaanka Qardho.",
+        "Masuuliyiinta ayaa kormeer ku sameeyay sida bulshada loogu adeegayo, iyagoo shacabka uga mahadceliyay ka qaybgalka maalinta koowaad.",
+        "Warbaahinta Dowladda Puntland ayaa sheegtay in diiwaangelintu qayb ka tahay diyaar-garowga doorashooyinka dowladaha hoose."
+      ],
+      "category": "elections",
+      "region": "Yaka, Karkaar",
+      "source": "Warbaahinta Dowladda Puntland",
+      "breaking": false,
+      "date": "2026-07-28"
+    },
+    {
+      "id": "shirweynaha-haweenka-qardho",
+      "title": "Shirweynaha Haweenka ee Doorashooyinka Dowladaha Hoose ee Puntland oo ka qabsoomay Qardho",
+      "summary": "Shirweynaha haweenka ee doorashooyinka dowladaha hoose ee Puntland ayaa lagu qabtay magaalada Qardho, waxaana soo qabanqaabisay Wasaaradda Horumarinta Haweenka iyo Arrimaha Qoyska.",
+      "body": [
+        "Shirweynaha haweenka ee doorashooyinka dowladaha hoose ee Puntland ayaa lagu qabtay magaalada Qardho. Shirweynaha waxaa soo qabanqaabisay Wasaaradda Horumarinta Haweenka iyo Arrimaha Qoyska Puntland.",
+        "Wasiiradda Wasaaradda ayaa ka hadashay muhiimadda ay leedahay in haweenku si firfircoon uga qaybqaataan golayaasha deegaanka iyo geeddi-socodka doorashooyinka qof iyo cod.",
+        "Kulanka waxaa lagu adkeeyay in dhallinyarada, haweenka iyo qaybaha kala duwan ee bulshada ay ka muuqdaan siyaasadda iyo maamulka deegaanka."
+      ],
+      "category": "society",
+      "region": "Qardho",
+      "source": "Warbaahinta Dowladda Puntland",
+      "breaking": false,
+      "date": "2026-07-19"
+    },
+    {
+      "id": "sharmaarke-dal-daare",
+      "title": "Sharma'arke Dal-daare oo loo magacaabay Agaasimaha Warfaafinta Xafiiska Madaxweyne Ku-xigeenka Puntland",
+      "summary": "Magacaabis cusub oo ka dhacday Xafiiska Madaxweyne Ku-xigeenka Puntland.",
+      "body": [
+        "Xafiiska Madaxweyne Ku-xigeenka Puntland ayaa shaaciyay magacaabista Agaasimaha Warfaafinta ee xafiiska.",
+        "Warbaahinta Dowladda Puntland ayaa warkan soo tabisay."
+      ],
+      "category": "politics",
+      "region": "Garoowe",
+      "source": "Warbaahinta Dowladda Puntland",
+      "breaking": false,
+      "date": "2026-06-22"
+    }
+  ],
+  "chat": []
+}
