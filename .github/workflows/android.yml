@@ -25,8 +25,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up the Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Report the toolchain
+        run: |
+          echo "::notice title=SDK::ANDROID_HOME=${ANDROID_HOME:-unset} SDK_ROOT=${ANDROID_SDK_ROOT:-unset}"
+          echo "::notice title=Platforms::$(ls "${ANDROID_HOME:-/usr/local/lib/android/sdk}/platforms" 2>&1 | tr '\n' ' ')"
+          echo "::notice title=Java::$(java -version 2>&1 | head -1)"
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
@@ -40,7 +43,16 @@ jobs:
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-        run: ./gradlew --no-daemon clean assembleRelease
+        run: |
+          set -o pipefail
+          ./gradlew --no-daemon --stacktrace clean assembleRelease 2>&1 | tee build.log
+
+      - name: Report the failure
+        if: failure()
+        run: |
+          tail -n 40 build.log 2>/dev/null | while IFS= read -r line; do
+            echo "::error title=Build::${line}"
+          done
 
       - name: Name the APK
         id: apk
